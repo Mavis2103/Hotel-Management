@@ -55,8 +55,8 @@ Language: Vietnamese.
 
 ## Authors
 
-[Nguyễn Phúc Bình](https://github.com/leesoonduck3009)
+[Lê Văn Kha](https://github.com/Marca01)
 
-[Phan Tuấn Thành](https://github.com/thanhpt1110)
+[Trần Anh Quân](https://github.com/Mavis2103)
 
-[Lê Thanh Tuấn](https://github.com/thtuanlegithub)
+[Nguyễn Văn Tô Thành](https://github.com/ThanhNguyen710)
