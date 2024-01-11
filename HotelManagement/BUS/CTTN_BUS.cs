@@ -25,10 +25,6 @@ namespace HotelManagement.BUS
         {
             CTTN_DAO.Instance.UpdateOrInsert(cTTN);
         }
-        public void RemoveCTTN(CTTN cTTN)
-        {
-            CTTN_DAO.Instance.RemoveCTTN(cTTN);
-        }
         public List<CTTN> FindCTTN(string MaLPH)
         {
             return CTTN_DAO.Instance.FindCTTN(MaLPH);
