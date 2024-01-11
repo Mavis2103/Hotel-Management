@@ -28,18 +28,7 @@ namespace HotelManagement.BUS
         {
             return CTDP_DAO.Instance.getKhoangTGTheoGio(MaCTDP);
         }
-        public CTDP FindCTDP(string MaPhong, DateTime currentTime) // Tìm Mã phòng theo 
-        {
-            return CTDP_DAO.Instance.FindCTDP(MaPhong, currentTime);
-        }
-        public List<CTDP> getCTDPonTime(DateTime Checkin, DateTime Checkout, List<CTDP> DSPhongThem)
-        {
-            return CTDP_DAO.Instance.getCTDPonTime(Checkin, Checkout, DSPhongThem);
-        }
-        public string getNextCTDP()
-        {
-            return CTDP_DAO.Instance.getNextCTDP();
-        }
+        
         public void UpdateOrAddCTDP(CTDP ctdp)
         {
             CTDP_DAO.Instance.UpdateOrAddCTDP(ctdp);
