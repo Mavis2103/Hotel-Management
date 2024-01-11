@@ -325,7 +325,8 @@ namespace HotelManagement.GUI
             }
 
             #region Check DB Connection
-            string connectionString = string.Format("Data source = {0}; Initial Catalog = {1}; Integrated security = True; MultipleActiveResultSets = True;App = EntityFramework", server, db);
+            // string connectionString = string.Format("Data source = {0}; Initial Catalog = {1}; Integrated security = True; MultipleActiveResultSets = True;App = EntityFramework", server, db);
+            string connectionString = string.Format("Server={0},1433;Initial Catalog={1};Persist Security Info=False;User ID=htmng;Password=htmn@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;", server, db);
             try
             {
                 SqlHelper sqlHelper = new SqlHelper(connectionString);
